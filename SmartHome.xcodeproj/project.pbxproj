@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3EA0F6482B15F7A600B01932 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0F6472B15F7A600B01932 /* main.swift */; };
+		3EA0F64F2B15F80200B01932 /* SmartHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0F64E2B15F80200B01932 /* SmartHome.swift */; };
+		3EA0F6512B15F83800B01932 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0F6502B15F83800B01932 /* Device.swift */; };
+		3EA0F6532B15F87C00B01932 /* DeviceTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0F6522B15F87C00B01932 /* DeviceTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		3EA0F6442B15F7A600B01932 /* SmartHome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SmartHome; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA0F6472B15F7A600B01932 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3EA0F64E2B15F80200B01932 /* SmartHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHome.swift; sourceTree = "<group>"; };
+		3EA0F6502B15F83800B01932 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		3EA0F6522B15F87C00B01932 /* DeviceTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				3EA0F6472B15F7A600B01932 /* main.swift */,
+				3EA0F64E2B15F80200B01932 /* SmartHome.swift */,
+				3EA0F6502B15F83800B01932 /* Device.swift */,
+				3EA0F6522B15F87C00B01932 /* DeviceTypes.swift */,
 			);
 			path = SmartHome;
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA0F6512B15F83800B01932 /* Device.swift in Sources */,
+				3EA0F6532B15F87C00B01932 /* DeviceTypes.swift in Sources */,
+				3EA0F64F2B15F80200B01932 /* SmartHome.swift in Sources */,
 				3EA0F6482B15F7A600B01932 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

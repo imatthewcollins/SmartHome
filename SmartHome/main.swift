@@ -9,3 +9,8 @@ import Foundation
 
 print("Hello, World!")
 
+
+let myHome = SmartHome()
+
+let lightbulb = Device(type: .lightbulb)
+myHome.addDevice(device: lightbulb)
