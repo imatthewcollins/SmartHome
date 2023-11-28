@@ -12,5 +12,5 @@ print("Hello, World!")
 
 let myHome = SmartHome()
 
-let lightbulb = Device(type: .lightbulb)
+let lightbulb = Device(name: "john", type: .lightbulb)
 myHome.addDevice(device: lightbulb)
